@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ZypherService</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:antiquewhite">
+
+    <marquee><h1 style="color:brown;font-size:30px">Zypher    Services</h1></marquee>
+
+<header>
+  <h2>Services</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a [routerLink]="['/author']">author</a></li>
+      <li><a [routerLink]="['/themes']">themes</a></li>
+      <li><a [routerLink]="['/category']">category</a></li>
+      <router-outlet></router-outlet>
+    </ul>
+  </nav>
+</section>
+
+</body>
+</html>

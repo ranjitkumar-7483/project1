@@ -1,0 +1,16 @@
+
+<table border="1" cellpadding="10px" cellspacing="10px" align="center" style="font-size:30px;border: 1px solid black;border-collapse: collapse">
+    <caption style="color:red"><h1>AUTHOR</h1></caption>
+    <thead style="background-color:gray">
+        <tr>
+            <th>AuthorName</th>
+            <th>AuthorImageURL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let x of result1">
+            <td>{{x.authorName}}</td>
+            <td>{{x.authorImageURL}}</td>
+        </tr>
+    </tbody>
+</table>

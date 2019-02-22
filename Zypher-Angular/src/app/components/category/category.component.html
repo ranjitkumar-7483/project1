@@ -1,0 +1,16 @@
+
+<table border="1" cellpadding="10px" cellspacing="10px" align="center" style="font-size:30px;border: 1px solid black;border-collapse: collapse">
+    <caption style="color:red"><h1>CATEGORY</h1></caption>
+    <thead style="background-color:gray">
+        <tr>
+            <th>CategoryName</th>
+            <th>CategoryImageURL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let x of result1">
+            <td>{{x.categoryName}}</td>
+            <td>{{x.categoryImageURL}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <table align="center" style="font-size:30px;border: 1px solid black;border-collapse: collapse" border="1">
+            <caption style="color:red"><h1>THEMES</h1></caption>
+            <thead style="background-color:gray">
+                <tr>
+                    <th>ThemeName</th>
+                    <th>ThemeImageURL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let x of result1">
+                    <td>{{x.themeName}}</td>
+                    <td>{{x.themeImageURL}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
