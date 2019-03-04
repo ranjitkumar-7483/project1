@@ -1,0 +1,183 @@
+#background #page #header ul.navigation {
+	padding:100px 0 0 20px;
+	list-style-type:none;
+	height:49px;
+	width:290px;
+	margin:0;
+}
+#background #page #header ul.navigation li {
+	height:49px;
+	width:126px;
+	margin:0 0 0 10px;
+	float:left;
+	line-height:49px;
+}
+#background #page #header ul.navigation li a {
+	background: url("../images/menu.gif");
+	background-position: 0 -198px;
+	color: #563F1F;
+	display: block;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-weight: bold;
+	height: 49px;
+	line-height: 40px;
+	text-decoration: none;
+	width:126px;
+	text-align:center;
+}
+#background #page #header ul.navigation li a:hover {
+	text-decoration:none;
+	display:block;
+	color:#563f1f;
+	background: url("../images/menu.gif");
+	background-position: 0 0;
+	font-family:Georgia, serif;
+	font-weight:bold;
+	font-size:16px;
+	width:126px;
+	text-align:center;
+}
+#background #page #header ul.navigation li a.active {
+	background: url("../images/menu.gif");
+	background-position: 0 0;
+}
+/*****************End of left navigation**********************/
+	
+	
+	
+	#background #page #header a#logo {
+	text-decoration:none;
+	position:absolute;
+	left:309px;
+	top:1px;
+	z-index:100;
+}
+#background #page #header a#logo img {
+	border:0;
+}
+/*****************Star of right navigation**********************/
+	#background #page #header ul#navigation {
+	list-style-type:none;
+	height:49px;
+	width:368px;
+	margin:0;
+	position:absolute;
+	top:100px;
+	left:590px;
+}
+#background #page #body .slider ul li.first h2 {
+	color:#572c00;
+	pading:0 20px;
+	font-size:32px;
+	line-height:35px;
+	margin:35px 0 10px 0;
+}
+#background #page #body ul#featured li.first {
+	margin-right:10px;
+}
+/*****************Star of left navigation**********************/
+	#background .page #header ul.navigation {
+	padding:100px 0 0 20px;
+	list-style-type:none;
+	height:49px;
+	width:290px;
+	margin:0;
+}
+#background .page #header ul.navigation li {
+	height:49px;
+	width:126px;
+	margin:0 0 0 10px;
+	float:left;
+	line-height:49px;
+}
+#background .page #header ul.navigation li a {
+	background: url("../images/menu.gif");
+	background-position: 0 -198px;
+	color: #563F1F;
+	display: block;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-weight: bold;
+	height: 49px;
+	line-height: 40px;
+	text-decoration: none;
+	width:126px;
+	text-align:center;
+}
+#background .page #header ul.navigation li a:hover {
+	text-decoration:none;
+	display:block;
+	color:#563f1f;
+	background: url("../images/menu.gif");
+	background-position: 0 0;
+	font-family:Georgia, serif;
+	font-weight:bold;
+	font-size:16px;
+	width:126px;
+	text-align:center;
+}
+#background .page #header ul.navigation li a.active {
+	background: url("../images/menu.gif");
+	background-position: 0 0;
+}
+#background .page #header a#logo {
+	text-decoration:none;
+	position:absolute;
+	left:309px;
+	top:1px;
+	z-index:100;
+}
+#background .page #header a#logo img {
+	border:0;
+}
+/*****************Star of right navigation**********************/
+	#background .page #header ul#navigation {
+	list-style-type:none;
+	height:49px;
+	width:368px;
+	margin:0;
+	position:absolute;
+	top:100px;
+	left:590px;
+}
+#background .page #body .slider ul li.first h2 {
+	color:#572c00;
+	pading:0 20px;
+	font-size:32px;
+	line-height:35px;
+	margin:35px 0 10px 0;
+}
+#background .page #footer ul li a.facebook {
+	background: url("../images/icon.gif");
+	background-position: 0 0;
+	width:25px;
+	height:25px;
+	text-decoration:none;
+	position:relative;
+	top:32px;
+	float:left;
+	margin-right:10px;
+	overflow:hidden;
+}
+#background .page #footer ul li a.twitter {
+	background: url("../images/icon.gif");
+	background-position: 0 -75px;
+	float:left;
+	width:38px;
+	height:26px;
+	text-decoration:none;
+	position:relative;
+	top:32px;
+	margin-right:10px;
+	overflow:hidden;
+}
+#background .page #body ul#featured li.first {
+	margin-right:10px;
+}
+#background .page #body .content .body {
+	height:auto;
+}
+#background .page #body .content .body h2 {
+	margin-top:30px;
+}
